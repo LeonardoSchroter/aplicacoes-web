@@ -1,0 +1,16 @@
+body {
+  background: red;
+  margin-top: 200px;
+  margin-right: 80px;
+  margin-bottom: 1000px;
+  margin-left: 70px;
+
+}
+
+
+p {
+  color: rgb(240, 240, 240);
+  background: darkslateblue;
+  padding: 30px;
+
+}
