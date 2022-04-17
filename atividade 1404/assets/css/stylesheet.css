@@ -1,0 +1,142 @@
+.principal {
+  height: 97vh;
+  width: 98vw;
+  position: relative;
+
+}
+
+#tab {
+  border: 1px black;
+  color: black;
+  margin-left: auto;
+  margin-right: auto;
+
+
+
+}
+
+#zero {
+  background-color: rgb(237, 94, 94);
+
+
+}
+
+#um {
+  background-color: rgb(221, 117, 79);
+
+
+}
+
+#dois {
+  background-color: rgb(228, 176, 92);
+
+
+}
+
+#tres {
+  background-color: rgb(222, 203, 93);
+
+
+}
+
+#quatro {
+  background-color: rgb(205, 223, 84);
+
+
+}
+
+#cinco {
+  background-color: rgb(163, 210, 74);
+
+
+}
+
+#seis {
+  background-color: rgb(124, 199, 57);
+
+
+}
+
+#sete {
+  background-color: rgb(99, 212, 74);
+
+
+}
+
+#oito {
+  background-color: rgb(48, 164, 65);
+
+
+}
+
+#nove {
+  background-color: rgb(69, 209, 160);
+
+
+}
+
+#dez {
+  background-color: rgb(33, 147, 167);
+
+
+}
+
+#onze {
+  background-color: rgb(71, 142, 214);
+
+
+}
+
+#doze {
+  background-color: rgb(57, 57, 197);
+
+
+}
+
+#treze {
+  background-color: rgb(160, 86, 226);
+
+
+}
+
+#quatorze {
+  background-color: rgb(130, 40, 169);
+
+
+}
+
+#quinze {
+  background-color: rgb(180, 42, 180);
+
+
+}
+
+#dezesseis {
+  background-color: rgb(177, 68, 151);
+
+
+}
+
+#dezessete {
+  background-color: rgb(202, 88, 114);
+
+
+}
+
+#dezoito {
+  background-color: rgb(197, 57, 83);
+
+
+}
+
+#dezenove {
+  background-color: rgb(175, 51, 65);
+
+
+}
+
+#vinte {
+  background-color: rgb(119, 31, 31);
+
+
+}
