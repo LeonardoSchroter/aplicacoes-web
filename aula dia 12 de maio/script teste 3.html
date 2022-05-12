@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var numero=1;
+        //comparação normal (compara apenas os valores)
+        if (numero=="1"){//resultado:true
+            alert("==compara apenas os valores");
+        }
+        //comparação restrita (compara valores e tipos de variaveis)
+        var mensagem;
+        if(numero==="1"){//resultado:false
+            mensagem="nunca executa";
+
+        } else {
+            mensagem= "number é diferente de string com o ===";
+        }
+        /* 
+        operador tern\rrio(versão reduzida do IF)
+        condição ? se_verdadeiro: se_falso;
+        */
+       var x = (numero==="1") ? "nunca executa" : "number é diferente de string com o ===";
+    </script>
+</body>
+</html>
