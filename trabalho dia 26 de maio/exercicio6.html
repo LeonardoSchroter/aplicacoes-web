@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        v1: <input type="text" id="v1" >
+        v2: <input type="text" id="v2" >
+        <button id="btn" onclick="minhaFuncao1()">subtração!</button>
+        <button id="btn" onclick="minhaFuncao2()">soma!</button>
+        <button id="btn" onclick="minhaFuncao3()">divisão!</button>
+        <button id="btn" onclick="minhaFuncao4()">multiplicação!</button>
+       <script>
+        function minhaFuncao2(){
+        
+            var v1 = parseInt(document.getElementById("v1").value);
+            var v2= parseInt(document.getElementById("v2").value);
+                var resultado=v1+v2;
+          
+                alert(resultado);
+
+            }
+        function minhaFuncao1(){
+        
+            var v1 = parseInt(document.getElementById("v1").value);
+            var v2= parseInt(document.getElementById("v2").value);
+            var resultado=v1-v2;
+      
+            alert(resultado);
+
+        }
+        function minhaFuncao3(){
+        
+             var v1 = parseInt(document.getElementById("v1").value);
+             var v2= parseInt(document.getElementById("v2").value);
+             var resultado=v1/v2;
+  
+            alert(resultado);
+
+    }
+        function minhaFuncao4(){
+        
+            var v1 = parseInt(document.getElementById("v1").value);
+            var v2= parseInt(document.getElementById("v2").value);
+            var resultado=v1*v2;
+  
+             alert(resultado);
+
+        }
+    
+        
+    </script>
+</body>
+</html>

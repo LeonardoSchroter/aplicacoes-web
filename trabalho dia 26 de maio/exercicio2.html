@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    nome <input type="text" id="v1" >
+    idade <input type="text" id="v2" >
+    <button id="btn" onclick="minhaFuncao()">Clique!</button>
+    <script>
+        function minhaFuncao(){
+             var idade = parseInt(document.getElementById("v2").value);
+             var nome=(document.getElementById("v1").value);
+             if(idade>=18){
+                alert(nome+" é maior de idade");
+             }
+             else{
+                 alert(nome+" não é maior de idade");
+             }
+
+        }
+        </script>
+        
+</body>
+</html>
