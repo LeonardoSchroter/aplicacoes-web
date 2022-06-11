@@ -9,11 +9,22 @@
 </head>
 
 <body>
+  <button onclick="esconder()">esconde os negocio</button>
+  
   <p>e tipo eu sou o cara que estará na cozinha fazendo sanduíches ta ligado?
     Nós devíamos jogar Left 4 Dead 2 algum dia. É um jogo de zumbi muito legal
     com vários momentos assustadores. Porém, Não se preocupe, Estarei aqui para protege-la ;)
     Desculpe.</p>
-
+  <script>
+    function esconder(){
+      if(document.querySelector("p").style.display=="none"){
+      document.querySelector("p").style.display="block";
+      }
+      else{
+        document.querySelector("p").style.display="none"; //none faz o display ficar invisivel
+      }
+    }
+  </script>
 
 
 
