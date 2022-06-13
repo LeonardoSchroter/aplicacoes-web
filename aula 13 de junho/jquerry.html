@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Usando jquerry</title>
+    <meta charset="UTF-8">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+     crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <p id="para"> isto acontece no texto</p>
+
+    <p id="teste"></p>
+    <h1> acabou</h1>
+
+    <ul>
+        <li>Leo</li>
+        <li>Rick</li>
+        <li>Alan</li>
+        <li>Luis</li>
+    </ul>
+    <button id="bt" onclick="esconde()"> Clique aqui para limpar a lista</button>
+    <button id="bt2" onclick="mostra()"> Clique aqui para mostrar a lista</button>
+</body>
+<script>
+    $("#teste").html("é isso aí aí, não tem mais jeito");
+    $("h1").css({"color":"blue"});
+    $("body").css({"background":"red"});
+
+    function esconde(){
+        $("ul").hide();
+    }
+    function mostra(){
+        $("ul").show();
+       
+    }
+    
+</script>
+</html>
