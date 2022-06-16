@@ -1,0 +1,25 @@
+.tudo {
+
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.canto_esq {
+  background-color: gray;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  font-size: 20px;
+}
+
+.canto_dir {
+  background-color: gray;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100px;
+}
