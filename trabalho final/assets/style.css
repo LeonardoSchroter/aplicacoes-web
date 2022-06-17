@@ -1,33 +1,57 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: dimgray;
+}
+
+
+
 .header {
   position: relative;
-  background-color: red;
-  height: 80px;
+  background-color: black;
+  width: 100vw;
+  height: 100px;
+  color: black;
 }
 
-.up_left {
+.header .logo {
+  width: 140px;
+  margin-left: 50px;
 
-  height: 30px;
+
+}
+
+.descricao {
   position: absolute;
-  top: 0;
-  left: 200px;
-  width: 100px;
-  font-size: 20px;
-
+  margin-left: 200px;
+  top: 50px;
   color: aliceblue;
 }
 
-a {
-  font-size: 20px;
-  color: aliceblue;
-}
-
-.up_right {
-
-  height: 30px;
+.header h1 {
   position: absolute;
   top: 0;
-  right: 200px;
-  width: 100px;
-  font-size: 20;
-  border-radius: 9px;
+  margin-left: 800px;
+  size: 20px;
+  color: aliceblue;
+
+
+}
+
+.header ul {
+  list-style: none;
+}
+
+.header li {
+  display: inline;
+  padding: 8px;
+}
+
+.menu {
+  position: absolute;
+  bottom: 0;
+  right: 20px;
+  bottom: 65px;
+  top: 65px;
 }
