@@ -9,7 +9,7 @@ body {
 
 .header {
   position: relative;
-  background-color: black;
+  background-color:rgb(46, 44, 44);
   width: 100vw;
   height: 100px;
   color: white;
@@ -57,15 +57,64 @@ body {
   top: 25px;
 }
 
-.menu_lateral {
-  float: left;
+
+
+.menulateral{
+ position: relative;
+  background-color: rgb(46, 44, 44);
+  height: 70vh;
+  width: 90px;
+  border-radius: 10px;
+  color: white;
+}
+.menul{
+  left:0px;
+  top: 60px;
+}
+
+
+  
+
+.menulateral ul{
+  
+  left: 0px;
+  list-style: none;
+  
+}
+.menulateral li{
+  
+  left: 0px;
+  
+}
+
+.footer{
+  background: rgb(46, 44, 44);
+  position: absolute;
+  bottom: 0cm;
+  height: 50px;
+  width: 100vw;
+  
+  
+
+}
+
+
+
+.footer li {
+  color: white;
   position: relative;
-  background-color: black;
-  height: 800px;
-  width: 100px;
+  display: inline;
+  padding: 8px;
+  bottom: 0px;
+}
 
-  width: 10%;
-  margin: 0;
-  padding: 0;
+.footer ul {
+  list-style: none;
+}
 
+.menu2{
+  position: absolute;
+  bottom: 0;
+  right: 20px;
+  top: 5px;
 }
