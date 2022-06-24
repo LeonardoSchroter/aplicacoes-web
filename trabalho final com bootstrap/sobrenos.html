@@ -27,11 +27,31 @@
             <a href="products.html" id="products-menu">Outros produtos</a>
 
 
+
           </div>
         </div>
       </nav>
     </div>
   </header>
+
+  <div class="conteiner">
+    <form id="formulario">
+      <div class="form-group">
+        <label for="exampleInputEmail1">Email </label>
+        <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+        <small id="emailHelp" class="form-text text-muted">Nunca iremos compartilhar seu email com ninguem</small>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputDoubt">Dúvida</label>
+        <input type="text" class="form-control" id="duvida" placeholder="Doubt">
+        <small id="emailHelp" class="form-text text-muted">Duvida até 100 caracteres</small>
+      </div>
+
+      <button type="submit" class="btn btn-primary" onclick="submit()">Submit</button>
+    </form>
+  </div>
+
+
   <footer>
     <nav class="navbar fixed-bottom bg-dark">
       <div class="container-fluid">
@@ -40,6 +60,21 @@
     </nav>
   </footer>
 
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous">
+      function submit() {
+        var campos = document.getElementsByTagName("input").value;
+        if (campos == "") {
+          alert("você deve preencher todos os campos");
+        }
+        else {
+          alert("Sua dúvida foi enviada");
+        }
+
+
+      }
+
+    </script>
 
 
 
