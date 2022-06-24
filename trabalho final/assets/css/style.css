@@ -9,7 +9,7 @@ body {
 
 .header {
   position: relative;
-  background-color:rgb(46, 44, 44);
+  background-color: rgb(28, 27, 27);
   width: 100vw;
   height: 100px;
   color: white;
@@ -59,42 +59,51 @@ body {
 
 
 
-.menulateral{
- position: relative;
-  background-color: rgb(46, 44, 44);
+.menulateral {
+  position: relative;
+  background-color: rgb(28, 27, 27);
   height: 70vh;
   width: 90px;
   border-radius: 10px;
   color: white;
-}
-.menul{
-  left:0px;
-  top: 60px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
 
+.menul {
 
-  
+  position: absolute;
+  right: 30px;
 
-.menulateral ul{
-  
+
+}
+
+
+
+
+.menulateral ul {
+
   left: 0px;
   list-style: none;
-  
-}
-.menulateral li{
-  
-  left: 0px;
-  
+
+
 }
 
-.footer{
-  background: rgb(46, 44, 44);
+.menulateral li {
+
+  left: 0px;
+
+
+}
+
+.footer {
+  background: rgb(28, 27, 27);
   position: absolute;
   bottom: 0cm;
   height: 50px;
   width: 100vw;
-  
-  
+
+
 
 }
 
@@ -112,9 +121,9 @@ body {
   list-style: none;
 }
 
-.menu2{
+.menu2 {
   position: absolute;
   bottom: 0;
-  right: 20px;
+  right: 10px;
   top: 5px;
 }
