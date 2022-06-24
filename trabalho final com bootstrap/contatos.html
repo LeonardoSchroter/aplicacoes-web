@@ -32,6 +32,22 @@
       </nav>
     </div>
   </header>
+  <div class="conteiner">
+    <form id="formulario">
+      <div class="form-group">
+        <label for="exampleInputEmail1">Email </label>
+        <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+        <small id="emailHelp" class="form-text text-muted">Nunca iremos compartilhar seu email com ninguem</small>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputDoubt">Dúvida</label>
+        <input type="text" class="form-control" id="duvida" placeholder="Doubt">
+        <small id="emailHelp" class="form-text text-muted">Duvida até 100 caracteres</small>
+      </div>
+
+      <button type="submit" class="btn btn-primary" onclick="submit()">Submit</button>
+    </form>
+  </div>
   <footer>
     <nav class="navbar fixed-bottom bg-dark">
       <div class="container-fluid">
@@ -41,6 +57,16 @@
   </footer>
 
 
+  <script>
+    function submit() {
+
+      alert("Sua dúvida foi enviada");
+
+
+
+    }
+
+  </script>
 
 
 
