@@ -46,3 +46,8 @@ header .navbar {
   color: black;
 
 }
+
+.carousel-inner>.carousel-item>img {
+  width: 700px;
+  height: 820px;
+}
