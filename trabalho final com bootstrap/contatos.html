@@ -46,7 +46,7 @@
         <small id="emailHelp" class="form-text text-muted">Duvida até 100 caracteres</small>
       </div>
 
-      <button type="submit" class="btn btn-primary" onclick="submit()">Submit</button>
+      <button id="ButtonId" type="submit" class="btn btn-primary">Submit</button>
     </form>
   </div>
   <footer>
@@ -59,13 +59,13 @@
 
 
   <script>
-    function submit() {
+    var form = document.getElementById("formulario");
+    document.getElementById("ButtonId").addEventListener("click", function () {
+      alert("Sua dúvida foi enviada.");
+    });
 
-      alert("Sua dúvida foi enviada");
 
 
-
-    }
 
   </script>
 
